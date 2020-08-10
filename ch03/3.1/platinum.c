@@ -11,7 +11,7 @@ int main(void)
     /* 获取用户输入 */
     scanf("%f", &weight);
     value = 1700.0 * weight * 14.5833;
-    printf("Your weight in platinum is worth $%.2f.\n",value);
+    printf("Your weight in platinum is worth $%.2f.\n", value);
 
     return 0;
 }
