@@ -2,7 +2,6 @@
 // and use nested-loop print A
 //                          ABA
 //                         ABCBA
-// TODO:
 #include <stdio.h>
 
 void printLetters(char ch);
@@ -51,6 +50,12 @@ void printLetters(char ch)
         {
 
             printf("%c", j);
+        }
+        // display image for ABC
+        for (int j = 'A' + i; j > 'A'; j--)
+        {
+
+            printf("%c", j - 1);
         }
         printf("\n");
     }
