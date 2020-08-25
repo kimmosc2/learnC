@@ -4,7 +4,7 @@
 int main(void)
 {
     char word_array[20];
-    printf("",scanf("%s",&word_array));
+    scanf("%s",&word_array);
     for(int i = strlen(word_array); i > 0;i--)
         printf("%c",word_array[i-1]);
     return 0;
