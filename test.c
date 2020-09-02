@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <strings.h>
+// #include <ctype.h>
 #define PRAISE "you are an extraordinary being."
 
 int main(void)
@@ -9,5 +10,6 @@ int main(void)
     scanf("%s", name);
     printf("%s,%s", name, PRAISE);
     printf("[name:%s] [sizeof:%d] [strlen:%d]\n", name, sizeof(name), strlen(name));
+    
     return 0;
 }

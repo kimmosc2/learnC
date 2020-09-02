@@ -28,6 +28,7 @@ int main(void)
         printf("Please enter another integer for analysis; ");
         printf("Enter q to quit.\n");
     }
+    
     printf("Bye.\n");
     return 0;
 }
