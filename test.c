@@ -1,15 +1,42 @@
+#include <conio.h>
 #include <stdio.h>
-#include <strings.h>
-// #include <ctype.h>
-#define PRAISE "you are an extraordinary being."
 
+#define UP 72
+#define DOWN 80
+#define LEFT 75
+#define RIGHT 77
 int main(void)
 {
-    char name[40];
-    printf("what's your name?\n");
-    scanf("%s", name);
-    printf("%s,%s", name, PRAISE);
-    printf("[name:%s] [sizeof:%d] [strlen:%d]\n", name, sizeof(name), strlen(name));
-    
+
+    int key;
+    while ((key = getch()) != 3)
+    {
+        if (key == 224)
+        {
+            key = getch();
+            switch (key)
+            {
+            case UP:
+                printf("up");
+                break;
+            case DOWN:
+                printf("down");
+                break;
+            case LEFT:
+                printf("left");
+                break;
+            case RIGHT:
+                printf("right");
+                break;
+
+            default:
+                break;
+            }
+        }
+        else
+        {
+            printf("%c",key);
+        }
+    }
     return 0;
 }
