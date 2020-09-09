@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
-    int zippo[3][2] = {{1, 2}, {3, 4}, {5, 6}};
-    printf("%d\n", *(zippo + 1));
-    printf("%p", zippo + 1);
+    char somebox[40] = {"111"};
+    printf("%s\n", somebox);
+    strcat(somebox, "abc");
+    printf("%s\n", somebox);
     return 0;
 }
