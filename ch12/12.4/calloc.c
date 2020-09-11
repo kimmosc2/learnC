@@ -4,5 +4,5 @@
 // 下面创建了100个4(long长度)字节的存储单元
 long * newmen;
 newmen = (long *)calloc(100,sizeof(long));
- 
+  
 // calloc()还有一个特性，它把块中所有的位都设置为0
