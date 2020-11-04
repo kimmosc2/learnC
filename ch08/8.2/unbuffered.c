@@ -18,16 +18,16 @@ int main(void)
             switch (ch)
             {
             case VK_UP:
-                printf("\rU");
+                printf("\rpress U");
                 break;
             case VK_DOWN:
-                printf("\rD");
+                printf("\rpress D");
                 break;
             case VK_LEFT:
-                printf("\rL");
+                printf("\rpress L");
                 break;
             case VK_RIGHT:
-                printf("\rR");
+                printf("\rpress R");
                 break;
             default:
                 break;
@@ -35,7 +35,7 @@ int main(void)
         }
         else
         {
-            printf("\r%c", ch);
+            printf("\rpress %c", ch);
         }
     }
     return 0;
