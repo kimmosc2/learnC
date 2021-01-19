@@ -6,7 +6,7 @@
 
 
 long htoi(char hex[]);
-long power(int num, int n);
+long power(int num, int n); ·
 
 int main(void)
 {
@@ -43,7 +43,7 @@ long htoi(char hex[])
         else
         {
             return 0;
-        }
+        } 
     }
     return sum;
 }
